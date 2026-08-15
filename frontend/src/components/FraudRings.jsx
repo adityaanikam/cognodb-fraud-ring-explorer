@@ -30,7 +30,7 @@ function FraudRings({ rings, loading }) {
     <section className="card card-accent-danger">
       <h2>Flagged fraud rings</h2>
       <p className="card-hint">
-        Accounts linked by a shared device fingerprint or payment method — the kind of pattern a graph
+        Accounts linked by a shared device fingerprint or payment method: the kind of pattern a graph
         traversal finds in one query, but a relational schema needs a multi-table self-join per identifier
         type to even approximate.
       </p>

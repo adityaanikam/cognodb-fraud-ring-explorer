@@ -47,7 +47,7 @@ PAYMENT_METHODS = [
     {"id": "pm-10", "type": "card", "masked_number": "4111-xxxx-xxxx-1010"},
 ]
 
-# (account_id, device_id) — A1, A2, A3 share a single device: ring signal.
+# (account_id, device_id) tuples. A1, A2, A3 share a single device: ring signal.
 ACCOUNT_DEVICE = [
     ("A1", "dev-fraud-1"),
     ("A2", "dev-fraud-1"),
@@ -61,7 +61,7 @@ ACCOUNT_DEVICE = [
     ("A10", "dev-10"),
 ]
 
-# (account_id, payment_method_id) — A4, A5 share a single payment method: second ring.
+# (account_id, payment_method_id) tuples. A4, A5 share a single payment method: second ring.
 ACCOUNT_PAYMENT_METHOD = [
     ("A4", "pm-fraud-1"),
     ("A5", "pm-fraud-1"),

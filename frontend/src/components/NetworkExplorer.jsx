@@ -68,7 +68,7 @@ function NetworkExplorer({ accounts, selectedId, network, networkLoading, networ
     <section className="card card-accent-primary">
       <h2>Network for {selectedAccount ? `${selectedAccount.name} (${selectedId})` : selectedId}</h2>
       <p className="card-hint">
-        Every account reachable within 4 hops through a shared device or payment method — a variable-length
+        Every account reachable within 4 hops through a shared device or payment method: a variable-length
         traversal that has no clean fixed-depth SQL equivalent.
       </p>
 

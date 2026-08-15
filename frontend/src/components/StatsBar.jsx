@@ -13,7 +13,7 @@ function StatsBar({ accountCount, flaggedCount, ringCount, loading }) {
         <div className={`stat-tile${s.tone ? ` stat-${s.tone}` : ''}`} key={s.label}>
           <div className="stat-icon">{s.icon}</div>
           <div>
-            <div className="stat-value">{loading ? '—' : s.value}</div>
+            <div className="stat-value">{loading ? '-' : s.value}</div>
             <div className="stat-label">{s.label}</div>
           </div>
         </div>

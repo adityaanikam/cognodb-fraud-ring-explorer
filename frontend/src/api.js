@@ -16,7 +16,7 @@ async function request(path) {
       const body = await res.json()
       message = body.message || body.error || message
     } catch {
-      // response wasn't JSON — keep the generic message
+      // response wasn't JSON, keep the generic message
     }
     const error = new Error(message)
     error.status = res.status

@@ -8,7 +8,7 @@ RUN npm ci
 
 COPY . .
 
-# Vite bakes VITE_* vars in at build time, not runtime — pass the backend URL as a build arg.
+# Vite bakes VITE_* vars in at build time, not runtime, so pass the backend URL as a build arg.
 ARG VITE_API_URL
 ENV VITE_API_URL=$VITE_API_URL
 
