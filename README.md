@@ -216,11 +216,8 @@ there for non-Vercel hosting.
 
 ## Screenshots
 
-![Overview: stats bar and flagged fraud rings](docs/screenshots/overview.png)
-
-![Accounts table](docs/screenshots/accounts.png)
-
-![Network explorer: radial graph and shortest-path finder](docs/screenshots/network-explorer.png)
+See [docs/screenshots](docs/screenshots) for screenshots of the overview, accounts table, and
+network explorer.
 
 ## Live demo
 
