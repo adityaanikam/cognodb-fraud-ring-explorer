@@ -223,4 +223,4 @@ network explorer.
 
 - **Hosted app:** https://cognodb-fraud-ring-explorer.vercel.app
 - **Backend API:** https://cognodb-fraud-ring-explorer.onrender.com
-- **Screen recording:** _add link_
+- **Screen recording:** https://www.loom.com/share/9643555e7112445f8552ef5903dad948
