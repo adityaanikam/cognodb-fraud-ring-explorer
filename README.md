@@ -224,5 +224,6 @@ there for non-Vercel hosting.
 
 ## Live demo
 
-- **Hosted app:** _add link_
+- **Hosted app:** https://cognodb-fraud-ring-explorer.vercel.app
+- **Backend API:** https://cognodb-fraud-ring-explorer.onrender.com
 - **Screen recording:** _add link_
