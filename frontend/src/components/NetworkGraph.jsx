@@ -38,24 +38,24 @@ function NetworkGraph({ center, nodes }) {
             cy={c}
             r={baseRadius + d * ringGap}
             fill="none"
-            stroke="#e2e4f4"
+            stroke="#382d1e"
             strokeDasharray="3 5"
           />
         ))}
         {positioned.map((n) => (
-          <line key={`edge-${n.id}`} x1={c} y1={c} x2={n.x} y2={n.y} stroke="#d7d9f0" strokeWidth="1.5" />
+          <line key={`edge-${n.id}`} x1={c} y1={c} x2={n.x} y2={n.y} stroke="#4a3a26" strokeWidth="1.5" />
         ))}
-        <circle cx={c} cy={c} r="19" fill="#4f46e5" />
-        <text x={c} y={c + 4} textAnchor="middle" fontSize="11" fontWeight="700" fill="#fff">
+        <circle cx={c} cy={c} r="19" fill="#d9843f" />
+        <text x={c} y={c + 4} textAnchor="middle" fontSize="11" fontWeight="700" fill="#14110d">
           {initials(center.name)}
         </text>
         {positioned.map((n) => (
           <g key={n.id}>
-            <circle cx={n.x} cy={n.y} r="14" fill="#818cf8" />
-            <text x={n.x} y={n.y + 4} textAnchor="middle" fontSize="9.5" fontWeight="700" fill="#fff">
+            <circle cx={n.x} cy={n.y} r="14" fill="#5fb3a3" />
+            <text x={n.x} y={n.y + 4} textAnchor="middle" fontSize="9.5" fontWeight="700" fill="#14110d">
               {initials(n.name)}
             </text>
-            <text x={n.x} y={n.y + 26} textAnchor="middle" fontSize="9.5" fill="#676e88">
+            <text x={n.x} y={n.y + 26} textAnchor="middle" fontSize="9.5" fill="#a3937a">
               {n.id}
             </text>
           </g>
@@ -63,10 +63,10 @@ function NetworkGraph({ center, nodes }) {
       </svg>
       <div className="graph-legend">
         <span>
-          <span className="legend-dot" style={{ background: '#4f46e5' }} /> Selected account
+          <span className="legend-dot" style={{ background: '#d9843f' }} /> Selected account
         </span>
         <span>
-          <span className="legend-dot" style={{ background: '#818cf8' }} /> Connected account
+          <span className="legend-dot" style={{ background: '#5fb3a3' }} /> Connected account
         </span>
       </div>
     </div>

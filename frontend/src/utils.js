@@ -1,4 +1,4 @@
-const AVATAR_COLORS = ['#4f46e5', '#0f766e', '#b45309', '#be185d', '#4338ca', '#0369a1', '#65a30d', '#9333ea']
+const AVATAR_COLORS = ['#d9843f', '#5fb3a3', '#b8973f', '#c2604a', '#6b7fa8', '#c9a227', '#9a6bb0', '#6b9a6f']
 
 export function initials(name) {
   return name
